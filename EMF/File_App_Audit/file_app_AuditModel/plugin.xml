@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated file_app_audit -->
+      <package
+            uri="http://www.example.org/file_app_audit"
+            class="file_app_audit.File_app_auditPackage"
+            genModel="model/file_app_audit.genmodel"/>
+   </extension>
+
+</plugin>

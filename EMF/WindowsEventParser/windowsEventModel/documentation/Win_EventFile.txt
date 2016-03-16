@@ -1,0 +1,31 @@
+Event Properties
+
+    Source - The software that logged the event, which can be either a program name, such as "SQL Server", or a component of the system or of a large program, such as a driver name. For example, "Elnkii" indicates an EtherLink II driver.
+    Event ID - A number identifying the particular event type. The first line of the description usually contains the name of the event type. For example, 6005 is the ID of the event that occurs when the Event Log service is started. The first line of the description of such an event is "The Event log service was started." The Event ID and the Source can be used by product support representatives to troubleshoot system problems.
+    Level - A classification of the event severity. In the Event Viewer normal list view, these are represented by a symbol.
+        Information - Indicates that a change in an application or component has occurred, such as an operation has successfully completed, a resource has been created, or a service started. Can occur in the system and application logs.
+        Warning - Indicates that an issue has occurred that can impact service or result in a more serious problem if action is not taken. Can occur in the system and application logs.
+        Error - Indicates that a problem has occurred, which might impact functionality that is external to the application or component that triggered the event. Can occur in the system and application logs.
+        Critical - Indicates that a failure has occurred from which the application or component that triggered the event cannot automatically recover. Can occur in the system and application logs.
+        Success Audit - Indicates that the exercise of a user right has succeeded. Can occur in the security log.
+        Failure Audit - Indicates that the exercise of a user right has failed. Can occur in the security log.
+    User - The name of the user on whose behalf the event occurred. This name is the client ID if the event was actually caused by a server process or the primary ID if impersonation is not taking place. Where applicable, a security log entry contains both the primary and impersonation IDs. Impersonation occurs when the server allows one process to take on the security attributes of another.
+    Operational Code - Contains a numeric value that identifies the activity or a point within an activity that the application was performing when it raised the event. For example, initialization or closing.
+    Log - The name of the log where the event was recorded.
+    Task Category - Used to represent a subcomponent or activity of the event publisher.
+    Keywords - A set of categories or tags that can be used to filter or search for events. Examples include "Network", "Security", or "Resource not found."
+    Computer - The name of the computer on which the event occurred. The computer name is typically the name of the local computer, but it might be the name of a computer that forwarded the event or it might be the name of the local computer before its name was changed.
+    Date and Time - The date and time that the event was logged.
+
+Event properties that can be displayed by adding columns to the Event Viewer display. In Event Viewer, you can click on View (menu bar) and Add/Remove Columns to do so.
+
+    Process ID - The identification number for the process that generated the event.
+    Thread ID - The identification number for the thread that generated the event.
+    Processor ID - The identification number for the processor that processed the event.
+    Session ID - The identification number for the terminal server session in which the event occurred.
+    Kernel Time - The elapsed execution time for kernel-mode instructions, in CPU time units.
+    User Time - The elapsed execution time for user-mode instructions, in CPU time units.
+    Processor Time - The elapsed execution time for user-mode instructions, in CPU ticks.
+    Correlation Id - Identifies the activity in the process for which the event is involved. This identifier is used to specify simple relationships between events.
+    Relative Correlation Id - Identifies a related activity in a process for which the event is involved.
+	Security ID - A security identifier (SID) is a unique value of variable length that is used to identify a security principal or security group in Windows operating systems. Well-known SIDs are a group of SIDs that identify generic users or generic groups. Their values remain constant across all operating systems.

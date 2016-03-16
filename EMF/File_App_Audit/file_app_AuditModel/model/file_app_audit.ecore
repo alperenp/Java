@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="file_app_audit" nsURI="http://www.example.org/file_app_audit"
+    nsPrefix="file_app_audit">
+  <eClassifiers xsi:type="ecore:EClass" name="File_App_Audit_Log">
+    <eOperations name="toString" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="if (eIsProxy()) return super.toString();&#x9;&#x9;&#xD;&#xA;&#xD;&#xA;StringBuffer result = new StringBuffer();&#x9;&#xD;&#xA;result.append(time);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(domainName);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(userName);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(fileName);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(processName);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(workingDirectory);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(processId);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(ppid);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(syscall);&#xD;&#xA;&#xD;&#xA;return result.toString();"/>
+      </eAnnotations>
+      <eParameters name="delimiter" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eOperations name="toString" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="String result = null;&#xD;&#xA;try {&#xD;&#xA;&#x9;result = toString(&quot;|&quot;);&#xD;&#xA;}&#xD;&#xA;catch(Exception e) {&#xD;&#xA;&#x9;e.printStackTrace();&#xD;&#xA;}&#xD;&#xA;return result;"/>
+      </eAnnotations>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fileName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="processName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="workingDirectory" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="time" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="userName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="domainName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="processId" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ppid" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="syscall" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+  </eClassifiers>
+</ecore:EPackage>

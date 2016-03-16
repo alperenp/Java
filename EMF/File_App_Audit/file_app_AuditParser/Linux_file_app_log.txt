@@ -1,0 +1,181 @@
+----
+time->Tue Jan  5 14:46:39 2016
+type=PROCTITLE msg=audit(1451997999.233:496): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1451997999.233:496): item=1 name="/home/alperen/Documents/alperen.txt" inode=1481451 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1451997999.233:496): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1451997999.233:496):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1451997999.233:496): arch=c000003e syscall=2 success=yes exit=17 a0=d63720 a1=20042 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1087 pid=5855 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 14:46:39 2016
+type=PROCTITLE msg=audit(1451997999.233:495): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1451997999.233:495): item=1 name="/home/alperen/Documents/alperen.txt" inode=1481451 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1451997999.233:495): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1451997999.233:495):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1451997999.233:495): arch=c000003e syscall=2 success=no exit=-17 a0=d63720 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1087 pid=5855 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 14:46:39 2016
+type=PROCTITLE msg=audit(1451997999.241:497): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1451997999.241:497): item=1 name="/home/alperen/Documents/alperen.txt~" inode=1482211 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1451997999.241:497): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1451997999.241:497):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1451997999.241:497): arch=c000003e syscall=87 success=yes exit=0 a0=7f1f240095d0 a1=7f1f389e9bc0 a2=0 a3=1d1 items=2 ppid=1087 pid=5855 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 14:46:39 2016
+type=PROCTITLE msg=audit(1451997999.245:498): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1451997999.245:498): item=2 name="/home/alperen/Documents/alperen.txt~" inode=1481451 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1451997999.245:498): item=1 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1451997999.245:498): item=0 name="/home/alperen/Documents/alperen.txt" inode=1481451 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1451997999.245:498):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1451997999.245:498): arch=c000003e syscall=86 success=yes exit=0 a0=7f1f240109a0 a1=7f1f240095d0 a2=0 a3=793 items=3 ppid=1087 pid=5855 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 14:46:39 2016
+type=CONFIG_CHANGE msg=audit(1451997999.245:499): auid=4294967295 ses=4294967295 op="updated_rules" path="/home/alperen/Documents/alperen.txt" key=(null) list=4 res=1
+----
+time->Tue Jan  5 14:46:39 2016
+type=PROCTITLE msg=audit(1451997999.245:500): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1451997999.245:500): item=4 name="/home/alperen/Documents/alperen.txt" inode=1479038 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1451997999.245:500): item=3 name="/home/alperen/Documents/alperen.txt" inode=1481451 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1451997999.245:500): item=2 name="/home/alperen/Documents/.goutputstream-0BKMAY" inode=1479038 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1451997999.245:500): item=1 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1451997999.245:500): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1451997999.245:500):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1451997999.245:500): arch=c000003e syscall=82 success=yes exit=0 a0=7f1f2400a850 a1=7f1f240109a0 a2=0 a3=634 items=5 ppid=1087 pid=5855 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:43:21 2016
+type=PROCTITLE msg=audit(1452001401.845:770): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001401.845:770): item=1 name="/home/alperen/Documents/alperen.txt" inode=1479038 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1452001401.845:770): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452001401.845:770):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001401.845:770): arch=c000003e syscall=2 success=yes exit=17 a0=d6bd40 a1=20042 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1087 pid=6397 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:43:21 2016
+type=PROCTITLE msg=audit(1452001401.857:771): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001401.857:771): item=1 name="/home/alperen/Documents/alperen.txt~" inode=1481451 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452001401.857:771): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452001401.857:771):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001401.857:771): arch=c000003e syscall=87 success=yes exit=0 a0=7f8fcc009580 a1=7f8fd37fdbc0 a2=0 a3=1d1 items=2 ppid=1087 pid=6397 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:43:21 2016
+type=PROCTITLE msg=audit(1452001401.857:772): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001401.857:772): item=2 name="/home/alperen/Documents/alperen.txt~" inode=1479038 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1452001401.857:772): item=1 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1452001401.857:772): item=0 name="/home/alperen/Documents/alperen.txt" inode=1479038 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1452001401.857:772):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001401.857:772): arch=c000003e syscall=86 success=yes exit=0 a0=7f8fcc0095d0 a1=7f8fcc009580 a2=0 a3=793 items=3 ppid=1087 pid=6397 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:43:21 2016
+type=CONFIG_CHANGE msg=audit(1452001401.857:773): auid=4294967295 ses=4294967295 op="updated_rules" path="/home/alperen/Documents/alperen.txt" key=(null) list=4 res=1
+----
+time->Tue Jan  5 15:43:21 2016
+type=PROCTITLE msg=audit(1452001401.857:774): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001401.857:774): item=4 name="/home/alperen/Documents/alperen.txt" inode=1474911 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1452001401.857:774): item=3 name="/home/alperen/Documents/alperen.txt" inode=1479038 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452001401.857:774): item=2 name="/home/alperen/Documents/.goutputstream-V9BLAY" inode=1474911 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452001401.857:774): item=1 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1452001401.857:774): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452001401.857:774):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001401.857:774): arch=c000003e syscall=82 success=yes exit=0 a0=7f8fcc0010c0 a1=7f8fcc0095d0 a2=0 a3=634 items=5 ppid=1087 pid=6397 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:43:21 2016
+type=PROCTITLE msg=audit(1452001401.845:769): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001401.845:769): item=1 name="/home/alperen/Documents/alperen.txt" inode=1479038 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1452001401.845:769): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452001401.845:769):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001401.845:769): arch=c000003e syscall=2 success=no exit=-17 a0=d6bd40 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1087 pid=6397 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:47:50 2016
+type=PROCTITLE msg=audit(1452001670.170:809): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001670.170:809): item=1 name="/home/alperen/Documents/alperen.txt" inode=1474911 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1452001670.170:809): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452001670.170:809):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001670.170:809): arch=c000003e syscall=2 success=no exit=-17 a0=1c90b80 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1087 pid=6511 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:47:50 2016
+type=PROCTITLE msg=audit(1452001670.170:810): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001670.170:810): item=1 name="/home/alperen/Documents/alperen.txt" inode=1474911 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1452001670.170:810): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452001670.170:810):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001670.170:810): arch=c000003e syscall=2 success=yes exit=17 a0=1c90b80 a1=20042 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1087 pid=6511 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:47:50 2016
+type=PROCTITLE msg=audit(1452001670.198:811): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001670.198:811): item=1 name="/home/alperen/Documents/alperen.txt~" inode=1479038 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452001670.198:811): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452001670.198:811):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001670.198:811): arch=c000003e syscall=87 success=yes exit=0 a0=7f7ca0009560 a1=7f7cb4fedbc0 a2=0 a3=1d1 items=2 ppid=1087 pid=6511 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:47:50 2016
+type=PROCTITLE msg=audit(1452001670.198:812): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001670.198:812): item=2 name="/home/alperen/Documents/alperen.txt~" inode=1474911 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1452001670.198:812): item=1 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1452001670.198:812): item=0 name="/home/alperen/Documents/alperen.txt" inode=1474911 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1452001670.198:812):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001670.198:812): arch=c000003e syscall=86 success=yes exit=0 a0=7f7ca0010c00 a1=7f7ca0009560 a2=0 a3=793 items=3 ppid=1087 pid=6511 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Tue Jan  5 15:47:50 2016
+type=CONFIG_CHANGE msg=audit(1452001670.198:813): auid=4294967295 ses=4294967295 op="updated_rules" path="/home/alperen/Documents/alperen.txt" key=(null) list=4 res=1
+----
+time->Tue Jan  5 15:47:50 2016
+type=PROCTITLE msg=audit(1452001670.198:814): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452001670.198:814): item=4 name="/home/alperen/Documents/alperen.txt" inode=1482214 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1452001670.198:814): item=3 name="/home/alperen/Documents/alperen.txt" inode=1474911 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452001670.198:814): item=2 name="/home/alperen/Documents/.goutputstream-CSEOAY" inode=1482214 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452001670.198:814): item=1 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1452001670.198:814): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452001670.198:814):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452001670.198:814): arch=c000003e syscall=82 success=yes exit=0 a0=7f7ca0009750 a1=7f7ca0010c00 a2=0 a3=634 items=5 ppid=1087 pid=6511 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Wed Jan  6 09:55:48 2016
+type=PROCTITLE msg=audit(1452066948.663:782): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452066948.663:782): item=1 name="/home/alperen/Documents/alperen.txt" inode=1482214 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1452066948.663:782): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452066948.663:782):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452066948.663:782): arch=c000003e syscall=2 success=yes exit=17 a0=1698760 a1=20042 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1075 pid=2562 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Wed Jan  6 09:55:48 2016
+type=PROCTITLE msg=audit(1452066948.683:783): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452066948.683:783): item=1 name="/home/alperen/Documents/alperen.txt~" inode=1474911 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452066948.683:783): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452066948.683:783):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452066948.683:783): arch=c000003e syscall=87 success=yes exit=0 a0=7f455400b7d0 a1=7f45657eebc0 a2=0 a3=1d1 items=2 ppid=1075 pid=2562 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Wed Jan  6 09:55:48 2016
+type=PROCTITLE msg=audit(1452066948.683:784): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452066948.683:784): item=2 name="/home/alperen/Documents/alperen.txt~" inode=1482214 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1452066948.683:784): item=1 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1452066948.683:784): item=0 name="/home/alperen/Documents/alperen.txt" inode=1482214 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1452066948.683:784):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452066948.683:784): arch=c000003e syscall=86 success=yes exit=0 a0=7f455400b0f0 a1=7f455400b7d0 a2=0 a3=793 items=3 ppid=1075 pid=2562 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Wed Jan  6 09:55:48 2016
+type=CONFIG_CHANGE msg=audit(1452066948.683:785): auid=4294967295 ses=4294967295 op="updated_rules" path="/home/alperen/Documents/alperen.txt" key=(null) list=4 res=1
+----
+time->Wed Jan  6 09:55:48 2016
+type=PROCTITLE msg=audit(1452066948.683:786): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452066948.683:786): item=4 name="/home/alperen/Documents/alperen.txt" inode=1481641 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1452066948.683:786): item=3 name="/home/alperen/Documents/alperen.txt" inode=1482214 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452066948.683:786): item=2 name="/home/alperen/Documents/.goutputstream-IGXKAY" inode=1481641 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1452066948.683:786): item=1 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1452066948.683:786): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452066948.683:786):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452066948.683:786): arch=c000003e syscall=82 success=yes exit=0 a0=7f455400b120 a1=7f455400b0f0 a2=0 a3=634 items=5 ppid=1075 pid=2562 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Wed Jan  6 09:55:48 2016
+type=PROCTITLE msg=audit(1452066948.663:781): proctitle=6765646974002F686F6D652F616C706572656E2F446F63756D656E74732F616C706572656E2E747874
+type=PATH msg=audit(1452066948.663:781): item=1 name="/home/alperen/Documents/alperen.txt" inode=1482214 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1452066948.663:781): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452066948.663:781):  cwd="/home/alperen"
+type=SYSCALL msg=audit(1452066948.663:781): arch=c000003e syscall=2 success=no exit=-17 a0=1698760 a1=c1 a2=1b6 a3=aaaaaaaaaaaaaaab items=2 ppid=1075 pid=2562 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="pool" exe="/usr/bin/gedit" key=(null)
+----
+time->Wed Jan  6 10:15:20 2016
+type=PROCTITLE msg=audit(1452068120.519:928): proctitle=2F7573722F6C69622F6A766D2F6A6176612D382D6F70656E6A646B2D616D6436342F62696E2F6A617661002D4466696C652E656E636F64696E673D5554462D38002D636C61737370617468002F686F6D652F616C706572656E2F776F726B73706163652F74656D702F62696E0074656D702E48656C6C6F576F726C64
+type=PATH msg=audit(1452068120.519:928): item=0 name="/home/alperen/Documents/alperen.txt" inode=1481641 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1452068120.519:928):  cwd="/home/alperen/workspace/temp"
+type=SYSCALL msg=audit(1452068120.519:928): arch=c000003e syscall=2 success=yes exit=15 a0=7fba54122e30 a1=401 a2=1b6 a3=371 items=1 ppid=1663 pid=3111 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 comm="java" exe="/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java" key=(null)
+----
+time->Wed Jan  6 10:30:18 2016
+type=PROCTITLE msg=audit(1452069018.764:946): proctitle="bash"
+type=PATH msg=audit(1452069018.764:946): item=1 name="/home/alperen/Documents/alperen.txt" inode=1481641 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1452069018.764:946): item=0 name="/home/alperen/Documents/" inode=1442383 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1452069018.764:946):  cwd="/"
+type=SYSCALL msg=audit(1452069018.764:946): arch=c000003e syscall=2 success=yes exit=3 a0=103ccc8 a1=241 a2=1b6 a3=7ffef9909f78 items=2 ppid=1857 pid=3170 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=pts2 ses=4294967295 comm="bash" exe="/bin/bash" key=(null)

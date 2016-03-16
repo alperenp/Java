@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="windowsEvent" nsURI="http://www.example.org/windowsEvent" nsPrefix="windowsEvent">
+  <eClassifiers xsi:type="ecore:EClass" name="WindowsEventLog" eSuperTypes="http://www.eclipse.org/emf/2002/Ecore#//EObject">
+    <eOperations name="toString" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="String result = null;&#xD;&#xA;try {&#xD;&#xA;&#x9;result = toString(&quot;|&quot;);&#xD;&#xA;}&#xD;&#xA;catch(Exception e) {&#xD;&#xA;&#x9;e.printStackTrace();&#xD;&#xA;}&#xD;&#xA;return result;"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="toString" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="body" value="if (eIsProxy()) return super.toString();&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;if(level.getValue() &lt; 0 || level.getValue() > 5)&#xD;&#xA;&#x9;throw new IllegalArgumentException(&quot;Invalid level index. Index must be between [0..5]!&quot;);&#xD;&#xA;&#xD;&#xA;StringBuffer result = new StringBuffer();&#x9;&#x9;&#xD;&#xA;result.append(source);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(event_Id);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(level);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(user);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(operational_Code);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(log);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(task_Category);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(keywords);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(computer);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(dateAndTime);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(process_Id);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(thread_Id);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(processor_Id);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(session_Id);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(kernel_Time);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(user_Time);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(processor_Time);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(correlation_Id);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(relative_Correlation_Id);&#xD;&#xA;result.append(delimiter);&#xD;&#xA;result.append(s_Id);&#xD;&#xA;&#x9;&#x9;&#xD;&#xA;return result.toString();"/>
+        <details key="documentation" value="|Source                    |EventID|Level      |User  |opCode|Log Name   |Task Category|Keywords|Computer|dateAndTime        |ProcessID|ThreadID|ProcessorID|SessionID|KernelTime                    |UserTime|ProcessorTime|CorrelationID|RelativeCorrelationID|Security Id|&#xD;&#xA;|--------------------------|-------|-----------|------|------|-----------|-------------|--------|--------|-------------------|---------|--------|-----------|---------|------------------------------|--------|-------------|-------------|---------------------|-----------|&#xD;&#xA;|Microsoft-Windows-Winlogon|6000   |Information|SYSTEM|0     |Application|None         |Classic |PC_NAME |08.12.2015 08:47:32|0        |0       |           |         |2015-12-08T06:47:32.000000000Z|        |             |             |                     |S-1-5-18   |&#xD;&#xA;| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|"/>
+      </eAnnotations>
+      <eParameters name="delimiter" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Source" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Event_Id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="User" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Operational_Code" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Log" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Task_Category" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Keywords" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Computer" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dateAndTime" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Process_Id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Thread_Id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Processor_Id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Session_Id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+        defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Kernel_Time" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="User_Time" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Processor_Time" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Correlation_Id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Relative_Correlation_Id"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="-1"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Level" eType="#//Level">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="0" value="&quot;Success Audit&quot;"/>
+        <details key="1" value="&quot;Critical&quot;"/>
+        <details key="2" value="&quot;Error&quot;"/>
+        <details key="3" value="&quot;Warning&quot;"/>
+        <details key="4" value="&quot;Information&quot;"/>
+        <details key="5" value="&quot;Failure Audit&quot;"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="S_Id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Level">
+    <eLiterals name="Undefined" literal="Undefined"/>
+    <eLiterals name="Critical" value="1"/>
+    <eLiterals name="Error" value="2" literal=""/>
+    <eLiterals name="Warning" value="3"/>
+    <eLiterals name="Information" value="4"/>
+    <eLiterals name="Failure_Audit" value="5"/>
+    <eLiterals name="Success_Audit" value="6"/>
+  </eClassifiers>
+</ecore:EPackage>

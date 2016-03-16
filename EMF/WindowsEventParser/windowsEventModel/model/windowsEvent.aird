@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_AlXSAJ2IEeWVQsnP3ec6dg" selectedViews="_AmONoJ2IEeWVQsnP3ec6dg" version="10.0.0.201505222000">
+  <semanticResources>windowsEvent.ecore</semanticResources>
+  <semanticResources>windowsEvent.genmodel</semanticResources>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_AmONoJ2IEeWVQsnP3ec6dg">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_AmprcJ2IEeWVQsnP3ec6dg" name="windowsEvent">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_AmprcZ2IEeWVQsnP3ec6dg" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Amprcp2IEeWVQsnP3ec6dg"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_AmtV0J2IEeWVQsnP3ec6dg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_AmtV0Z2IEeWVQsnP3ec6dg" type="Sirius" element="_AmprcJ2IEeWVQsnP3ec6dg" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_CGwzUJ2IEeWVQsnP3ec6dg" type="2003" element="_CGK9cJ2IEeWVQsnP3ec6dg">
+            <children xmi:type="notation:Node" xmi:id="_CG5WMJ2IEeWVQsnP3ec6dg" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_CG59QJ2IEeWVQsnP3ec6dg" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_CHAD4J2IEeWVQsnP3ec6dg" type="3010" element="_CGg7sJ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_CHAD4Z2IEeWVQsnP3ec6dg" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_CHAD4p2IEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_CHAD452IEeWVQsnP3ec6dg" type="3010" element="_CGiJ0J2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_CHAD5J2IEeWVQsnP3ec6dg" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_CHAD5Z2IEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_CHAq852IEeWVQsnP3ec6dg" type="3010" element="_CGjX8J2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_CHAq9J2IEeWVQsnP3ec6dg" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_CHAq9Z2IEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_CHAq9p2IEeWVQsnP3ec6dg" type="3010" element="_CGj_AJ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_CHAq952IEeWVQsnP3ec6dg" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_CHAq-J2IEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_YC6PoJ2KEeWVQsnP3ec6dg" type="3010" element="_YCmGkJ2KEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_YC6PoZ2KEeWVQsnP3ec6dg" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_YC6Pop2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_fIEUcJ2KEeWVQsnP3ec6dg" type="3010" element="_CGkmEJ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_fIEUcZ2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fIEUcp2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_gOETMJ2KEeWVQsnP3ec6dg" type="3010" element="_CGlNIJ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_gOETMZ2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_gOETMp2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_hCTzkJ2KEeWVQsnP3ec6dg" type="3010" element="_CGl0MJ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_hCTzkZ2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_hCTzkp2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_it_SQJ2KEeWVQsnP3ec6dg" type="3010" element="_itrJMJ2KEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_it_SQZ2KEeWVQsnP3ec6dg" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_it_SQp2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_nQcJwJ2KEeWVQsnP3ec6dg" type="3010" element="_nQM5MJ2KEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_nQcJwZ2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_nQcJwp2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_oQTEQJ2KEeWVQsnP3ec6dg" type="3010" element="_CGnCUZ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_oQTEQZ2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_oQTEQp2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pFow0J2KEeWVQsnP3ec6dg" type="3010" element="_CGmbQZ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_pFow0Z2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pFow0p2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_p73OMJ2KEeWVQsnP3ec6dg" type="3010" element="_CGo3gJ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_p73OMZ2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_p73OMp2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_qFuU0J2KEeWVQsnP3ec6dg" type="3010" element="_CGpekJ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_qFuU0Z2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_qFuU0p2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_q9u64J2KEeWVQsnP3ec6dg" type="3010" element="_CGqFoJ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_q9u64Z2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_q9u64p2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rNSZ0J2KEeWVQsnP3ec6dg" type="3010" element="_CGqssZ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_rNSZ0Z2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rNSZ0p2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_sp2ecJ2KEeWVQsnP3ec6dg" type="3010" element="_CGrTwZ2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_sp2ecZ2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_sp2ecp2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_s11E8J2KEeWVQsnP3ec6dg" type="3010" element="_CGsh4J2IEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_s11E8Z2KEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_s11sAJ2KEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_Q7FnYJ5FEeWN2KkA10lh-w" type="3010" element="_Q6cuMJ5FEeWN2KkA10lh-w">
+                <styles xmi:type="notation:FontStyle" xmi:id="_Q7FnYZ5FEeWN2KkA10lh-w" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_Q7FnYp5FEeWN2KkA10lh-w"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_6TqtIKiNEeWxLNQKmbzksw" type="3010" element="_6THTgKiNEeWxLNQKmbzksw">
+                <styles xmi:type="notation:FontStyle" xmi:id="_6TqtIaiNEeWxLNQKmbzksw" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_6TqtIqiNEeWxLNQKmbzksw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="__hAAQJ2uEeWVQsnP3ec6dg" type="3010" element="__gYVMJ2uEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="__hAAQZ2uEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="__hAAQp2uEeWVQsnP3ec6dg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_NBFPMJ2xEeWVQsnP3ec6dg" type="3010" element="_NA7eMJ2xEeWVQsnP3ec6dg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_NBFPMZ2xEeWVQsnP3ec6dg" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_NBFPMp2xEeWVQsnP3ec6dg"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_CG59QZ2IEeWVQsnP3ec6dg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_CG59Qp2IEeWVQsnP3ec6dg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CGwzUZ2IEeWVQsnP3ec6dg" fontColor="2697711" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CGwzUp2IEeWVQsnP3ec6dg" x="348" y="132" width="291" height="387"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_AmtV0p2IEeWVQsnP3ec6dg"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_CGK9cJ2IEeWVQsnP3ec6dg" name="WindowsEventLog" tooltipText="" width="12" height="10">
+        <target xmi:type="ecore:EClass" href="windowsEvent.ecore#//WindowsEventLog"/>
+        <semanticElements xmi:type="ecore:EClass" href="windowsEvent.ecore#//WindowsEventLog"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_8j31MKiNEeWxLNQKmbzksw" backgroundStyle="Liquid" foregroundColor="255,252,216">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGg7sJ2IEeWVQsnP3ec6dg" name="Source : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Source"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Source"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_F5L8EJ2IEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGiJ0J2IEeWVQsnP3ec6dg" name="Event_Id : EInt = -1" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Event_Id"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Event_Id"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Hp99MJ2IEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGjX8J2IEeWVQsnP3ec6dg" name="User : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/User"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/User"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_g5ttsJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGj_AJ2IEeWVQsnP3ec6dg" name="Operational_Code : EInt = -1" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Operational_Code"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Operational_Code"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_iDrmcJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_YCmGkJ2KEeWVQsnP3ec6dg" name="Log : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Log"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Log"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Z_sscJ2KEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGkmEJ2IEeWVQsnP3ec6dg" name="Task_Category : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Task_Category"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Task_Category"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_kOf4MJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGlNIJ2IEeWVQsnP3ec6dg" name="Keywords : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Keywords"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Keywords"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_luMwYJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGl0MJ2IEeWVQsnP3ec6dg" name="Computer : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Computer"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Computer"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_nVwkEJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_itrJMJ2KEeWVQsnP3ec6dg" name="dateAndTime : EDate" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/dateAndTime"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/dateAndTime"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_kwMakJ2KEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_nQM5MJ2KEeWVQsnP3ec6dg" name="Process_Id : EInt = -1" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Process_Id"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Process_Id"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_nQNgQJ2KEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGnCUZ2IEeWVQsnP3ec6dg" name="Thread_Id : EInt = -1" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Thread_Id"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Thread_Id"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_sBnPMJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGmbQZ2IEeWVQsnP3ec6dg" name="Processor_Id : EInt = -1" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Processor_Id"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Processor_Id"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_rAJyMJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGo3gJ2IEeWVQsnP3ec6dg" name="Session_Id : EInt = -1" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Session_Id"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Session_Id"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_s6eJ0J2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGpekJ2IEeWVQsnP3ec6dg" name="Kernel_Time : EDate" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Kernel_Time"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Kernel_Time"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_tyR7kJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGqFoJ2IEeWVQsnP3ec6dg" name="User_Time : EDate" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/User_Time"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/User_Time"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_utcjUJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGqssZ2IEeWVQsnP3ec6dg" name="Processor_Time : EDate" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Processor_Time"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Processor_Time"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_wuZucJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGrTwZ2IEeWVQsnP3ec6dg" name="Correlation_Id : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Correlation_Id"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Correlation_Id"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_yKHegJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CGsh4J2IEeWVQsnP3ec6dg" name="Relative_Correlation_Id : EInt = -1" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Relative_Correlation_Id"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Relative_Correlation_Id"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_y_FXoJ2JEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Q6cuMJ5FEeWN2KkA10lh-w" name="Level : Level = Undefined" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Level"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/Level"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_5E4RQJ82EeWasJZplbQyTA" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_6THTgKiNEeWxLNQKmbzksw" name="S_Id : EString" tooltipText="">
+          <target xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/S_Id"/>
+          <semanticElements xmi:type="ecore:EAttribute" href="windowsEvent.ecore#//WindowsEventLog/S_Id"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_8j-i4KiNEeWxLNQKmbzksw" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__gYVMJ2uEeWVQsnP3ec6dg" name="toString() : EString" tooltipText="toString() : EString">
+          <target xmi:type="ecore:EOperation" href="windowsEvent.ecore#//WindowsEventLog/toString"/>
+          <semanticElements xmi:type="ecore:EOperation" href="windowsEvent.ecore#//WindowsEventLog/toString"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__gaKYJ2uEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_NA7eMJ2xEeWVQsnP3ec6dg" name="toString(delimiter EString) : EString" tooltipText="toString(delimiter) : EString">
+          <target xmi:type="ecore:EOperation" href="windowsEvent.ecore#//WindowsEventLog/toString.1"/>
+          <semanticElements xmi:type="ecore:EOperation" href="windowsEvent.ecore#//WindowsEventLog/toString.1"/>
+          <semanticElements xmi:type="ecore:EParameter" href="windowsEvent.ecore#//WindowsEventLog/toString.1/delimiter"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_NA7eMZ2xEeWVQsnP3ec6dg" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_AmprdZ2IEeWVQsnP3ec6dg"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+      <target xmi:type="ecore:EPackage" href="windowsEvent.ecore#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

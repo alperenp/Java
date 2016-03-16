@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/bdesoc.crpyto.HashFunctions/src" modelPluginID="bdesoc.crpyto.HashFunctions"
+    modelName="HashFunctions" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>HashFunctions.ecore</foreignModel>
+  <genPackages prefix="HashFunctions" disposableProviderFactory="true" ecorePackage="HashFunctions.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="HashFunctions.ecore#//MessageDigestFooNames">
+      <genEnumLiterals ecoreEnumLiteral="HashFunctions.ecore#//MessageDigestFooNames/MD5"/>
+      <genEnumLiterals ecoreEnumLiteral="HashFunctions.ecore#//MessageDigestFooNames/SHA1"/>
+      <genEnumLiterals ecoreEnumLiteral="HashFunctions.ecore#//MessageDigestFooNames/SHA256"/>
+      <genEnumLiterals ecoreEnumLiteral="HashFunctions.ecore#//MessageDigestFooNames/SHA384"/>
+      <genEnumLiterals ecoreEnumLiteral="HashFunctions.ecore#//MessageDigestFooNames/SHA512"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="HashFunctions.ecore#//NoSuchAlgorithmException"/>
+    <genDataTypes ecoreDataType="HashFunctions.ecore#//InvalidKeyException"/>
+    <genClasses ecoreClass="HashFunctions.ecore#//CryptoHash">
+      <genOperations ecoreOperation="HashFunctions.ecore#//CryptoHash/CalculateHash">
+        <genParameters ecoreParameter="HashFunctions.ecore#//CryptoHash/CalculateHash/inputBytes"/>
+      </genOperations>
+      <genOperations ecoreOperation="HashFunctions.ecore#//CryptoHash/CalculateHash.1">
+        <genParameters ecoreParameter="HashFunctions.ecore#//CryptoHash/CalculateHash.1/inputBytes"/>
+        <genParameters ecoreParameter="HashFunctions.ecore#//CryptoHash/CalculateHash.1/selectedFunction"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="HashFunctions.ecore#//HMAC">
+      <genOperations ecoreOperation="HashFunctions.ecore#//HMAC/CalculateHMAC">
+        <genParameters ecoreParameter="HashFunctions.ecore#//HMAC/CalculateHMAC/inputBytes"/>
+        <genParameters ecoreParameter="HashFunctions.ecore#//HMAC/CalculateHMAC/selectedFunction"/>
+        <genParameters ecoreParameter="HashFunctions.ecore#//HMAC/CalculateHMAC/key"/>
+      </genOperations>
+      <genOperations ecoreOperation="HashFunctions.ecore#//HMAC/CalculateHMAC.1">
+        <genParameters ecoreParameter="HashFunctions.ecore#//HMAC/CalculateHMAC.1/inputBytes"/>
+        <genParameters ecoreParameter="HashFunctions.ecore#//HMAC/CalculateHMAC.1/key"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

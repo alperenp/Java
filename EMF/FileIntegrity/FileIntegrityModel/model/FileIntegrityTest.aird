@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_h4a7EJ8dEeWasJZplbQyTA" selectedViews="_iDXm0J8dEeWasJZplbQyTA" version="10.0.0.201505222000">
+  <semanticResources>FileIntegrityTest.ecore</semanticResources>
+  <semanticResources>FileIntegrityTest.genmodel</semanticResources>
+  <semanticResources>file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore</semanticResources>
+  <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_iDXm0J8dEeWasJZplbQyTA">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_iGVbQJ8dEeWasJZplbQyTA" name="FileIntegrityTest">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_iGVbQZ8dEeWasJZplbQyTA" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_iGVbQp8dEeWasJZplbQyTA"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_iGo9QJ8dEeWasJZplbQyTA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_iGo9QZ8dEeWasJZplbQyTA" type="Sirius" element="_iGVbQJ8dEeWasJZplbQyTA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_73gTQJ8dEeWasJZplbQyTA" type="2003" element="_727rgJ8dEeWasJZplbQyTA">
+            <children xmi:type="notation:Node" xmi:id="_73g6UJ8dEeWasJZplbQyTA" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_73iIcJ8dEeWasJZplbQyTA" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_ypInwJ80EeWasJZplbQyTA" type="3010" element="_you_IJ80EeWasJZplbQyTA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_ypInwZ80EeWasJZplbQyTA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_ypInwp80EeWasJZplbQyTA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_2sFccKPtEeWEmsq-lJtdMA" type="3010" element="_2rwsUKPtEeWEmsq-lJtdMA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_2sGDgKPtEeWEmsq-lJtdMA" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_2sGDgaPtEeWEmsq-lJtdMA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="__zdhIMQtEeWZrqtrE51Pgw" type="3010" element="__zNCcMQtEeWZrqtrE51Pgw">
+                <styles xmi:type="notation:FontStyle" xmi:id="__zdhIcQtEeWZrqtrE51Pgw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="__zdhIsQtEeWZrqtrE51Pgw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="__zdhI8QtEeWZrqtrE51Pgw" type="3010" element="__zNpgMQtEeWZrqtrE51Pgw">
+                <styles xmi:type="notation:FontStyle" xmi:id="__zdhJMQtEeWZrqtrE51Pgw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="__zdhJcQtEeWZrqtrE51Pgw"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_73iIcZ8dEeWasJZplbQyTA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_73iIcp8dEeWasJZplbQyTA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_73gTQZ8dEeWasJZplbQyTA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_73gTQp8dEeWasJZplbQyTA" x="276" y="60" width="259" height="231"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_80UEUJ8eEeWasJZplbQyTA" type="2003" element="_80C-kJ8eEeWasJZplbQyTA">
+            <children xmi:type="notation:Node" xmi:id="_80UrYJ8eEeWasJZplbQyTA" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_80UrYZ8eEeWasJZplbQyTA" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_80VScJ8eEeWasJZplbQyTA" type="3010" element="_80RoEJ8eEeWasJZplbQyTA">
+                <styles xmi:type="notation:FontStyle" xmi:id="_80VScZ8eEeWasJZplbQyTA" fontName="Segoe UI" fontHeight="8" italic="true"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_80VScp8eEeWasJZplbQyTA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_80UrYp8eEeWasJZplbQyTA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_80UrY58eEeWasJZplbQyTA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_80UEUZ8eEeWasJZplbQyTA" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_80UEUp8eEeWasJZplbQyTA" x="564" y="60" width="207" height="63"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9V55kMQtEeWZrqtrE51Pgw" type="2003" element="_9VseMMQtEeWZrqtrE51Pgw">
+            <children xmi:type="notation:Node" xmi:id="_9V6goMQtEeWZrqtrE51Pgw" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_9V6gocQtEeWZrqtrE51Pgw" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_9V6gpMQtEeWZrqtrE51Pgw" type="3010" element="_9V3dUMQtEeWZrqtrE51Pgw">
+                <styles xmi:type="notation:FontStyle" xmi:id="_9V6gpcQtEeWZrqtrE51Pgw" fontName="Segoe UI" fontHeight="8" italic="true"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_9V6gpsQtEeWZrqtrE51Pgw"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_9V6gosQtEeWZrqtrE51Pgw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_9V6go8QtEeWZrqtrE51Pgw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_9V55kcQtEeWZrqtrE51Pgw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9V55ksQtEeWZrqtrE51Pgw" x="564" y="145" width="207" height="62"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_iGo9Qp8dEeWasJZplbQyTA"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_727rgJ8dEeWasJZplbQyTA" name="FileIntegrityChecker" tooltipText="" width="12" height="10">
+        <target xmi:type="ecore:EClass" href="FileIntegrityTest.ecore#//FileIntegrityChecker"/>
+        <semanticElements xmi:type="ecore:EClass" href="FileIntegrityTest.ecore#//FileIntegrityChecker"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_TmfmwMQuEeWZrqtrE51Pgw" backgroundStyle="Liquid" foregroundColor="255,252,216">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_you_IJ80EeWasJZplbQyTA" name="IsIntegrated(fileBytes EByteArray, integrityCode EByteArray) : EBoolean" tooltipText="IsIntegrated(fileBytes, integrityCode) : EBoolean">
+          <target xmi:type="ecore:EOperation" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated"/>
+          <semanticElements xmi:type="ecore:EOperation" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated/fileBytes"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated/integrityCode"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_yowNQJ80EeWasJZplbQyTA" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_2rwsUKPtEeWEmsq-lJtdMA" name="IsIntegrated(fileBytes EByteArray, integrityCode EByteArray, IntegrityFunction MessageDigestFooNames) : EBoolean" tooltipText="IsIntegrated(fileBytes, integrityCode, IntegrityFunction) : EBoolean">
+          <target xmi:type="ecore:EOperation" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1"/>
+          <semanticElements xmi:type="ecore:EOperation" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1/IntegrityFunction"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1/fileBytes"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1/integrityCode"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_2rx6cKPtEeWEmsq-lJtdMA" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__zNCcMQtEeWZrqtrE51Pgw" name="IsIntegrated(fileBytes EByteArray, integrityCode EByteArray, IntegrityFunction MessageDigestFooNames, key EByteArray) : EBoolean" tooltipText="IsIntegrated(fileBytes, integrityCode, IntegrityFunction, key) : EBoolean">
+          <target xmi:type="ecore:EOperation" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2"/>
+          <semanticElements xmi:type="ecore:EOperation" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2/IntegrityFunction"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2/fileBytes"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2/integrityCode"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2/key"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__zNCccQtEeWZrqtrE51Pgw" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__zNpgMQtEeWZrqtrE51Pgw" name="IsIntegrated(fileBytes EByteArray, integrityCode EByteArray, key EByteArray) : EBoolean" tooltipText="IsIntegrated(fileBytes, integrityCode, key) : EBoolean">
+          <target xmi:type="ecore:EOperation" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3"/>
+          <semanticElements xmi:type="ecore:EOperation" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3/fileBytes"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3/integrityCode"/>
+          <semanticElements xmi:type="ecore:EParameter" href="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3/key"/>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__zOQkMQtEeWZrqtrE51Pgw" labelAlignment="LEFT">
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='Operation']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_80C-kJ8eEeWasJZplbQyTA" name="NoSuchAlgorithmException" tooltipText="" width="14" height="5">
+        <target xmi:type="ecore:EDataType" href="FileIntegrityTest.ecore#//NoSuchAlgorithmException"/>
+        <semanticElements xmi:type="ecore:EDataType" href="FileIntegrityTest.ecore#//NoSuchAlgorithmException"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_80DloJ8eEeWasJZplbQyTA" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="255,250,191">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_80RoEJ8eEeWasJZplbQyTA" name="java.security.NoSuchAlgorithmException" tooltipText="">
+          <target xmi:type="ecore:EDataType" href="FileIntegrityTest.ecore#//NoSuchAlgorithmException"/>
+          <semanticElements xmi:type="ecore:EDataType" href="FileIntegrityTest.ecore#//NoSuchAlgorithmException"/>
+          <decorations xmi:type="viewpoint:Decoration" xmi:id="_80S2MJ8eEeWasJZplbQyTA">
+            <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_80SPIJ8eEeWasJZplbQyTA" showIcon="false">
+            <labelFormat>italic</labelFormat>
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_9VseMMQtEeWZrqtrE51Pgw" name="InvalidKeyException" tooltipText="" width="14" height="5">
+        <target xmi:type="ecore:EDataType" href="FileIntegrityTest.ecore#//InvalidKeyException"/>
+        <semanticElements xmi:type="ecore:EDataType" href="FileIntegrityTest.ecore#//InvalidKeyException"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_9VseMcQtEeWZrqtrE51Pgw" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="255,250,191">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_9V3dUMQtEeWZrqtrE51Pgw" name="java.security.InvalidKeyException" tooltipText="">
+          <target xmi:type="ecore:EDataType" href="FileIntegrityTest.ecore#//InvalidKeyException"/>
+          <semanticElements xmi:type="ecore:EDataType" href="FileIntegrityTest.ecore#//InvalidKeyException"/>
+          <decorations xmi:type="viewpoint:Decoration" xmi:id="_9V4EYMQtEeWZrqtrE51Pgw">
+            <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
+          </decorations>
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_9V3dUcQtEeWZrqtrE51Pgw" showIcon="false">
+            <labelFormat>italic</labelFormat>
+            <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EDataType']/@subNodeMappings[name='EC_DataType_InstanceClassName']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_iGVbRZ8dEeWasJZplbQyTA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+      <target xmi:type="ecore:EPackage" href="FileIntegrityTest.ecore#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

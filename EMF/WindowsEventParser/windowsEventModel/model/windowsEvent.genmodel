@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/bdesoc.event.windowsEvent/src" modelPluginID="bdesoc.event.windowsEvent"
+    modelName="WindowsEvent" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>windowsEvent.ecore</foreignModel>
+  <genPackages prefix="WindowsEvent" basePackage="semper.gtarc.bdesoc.event.model"
+      disposableProviderFactory="true" ecorePackage="windowsEvent.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="windowsEvent.ecore#//Level">
+      <genEnumLiterals ecoreEnumLiteral="windowsEvent.ecore#//Level/Undefined"/>
+      <genEnumLiterals ecoreEnumLiteral="windowsEvent.ecore#//Level/Critical"/>
+      <genEnumLiterals ecoreEnumLiteral="windowsEvent.ecore#//Level/Error"/>
+      <genEnumLiterals ecoreEnumLiteral="windowsEvent.ecore#//Level/Warning"/>
+      <genEnumLiterals ecoreEnumLiteral="windowsEvent.ecore#//Level/Information"/>
+      <genEnumLiterals ecoreEnumLiteral="windowsEvent.ecore#//Level/Failure_Audit"/>
+      <genEnumLiterals ecoreEnumLiteral="windowsEvent.ecore#//Level/Success_Audit"/>
+    </genEnums>
+    <genClasses ecoreClass="windowsEvent.ecore#//WindowsEventLog">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Source"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Event_Id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/User"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Operational_Code"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Log"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Task_Category"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Keywords"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Computer"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/dateAndTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Process_Id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Thread_Id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Processor_Id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Session_Id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Kernel_Time"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/User_Time"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Processor_Time"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Correlation_Id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Relative_Correlation_Id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/Level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute windowsEvent.ecore#//WindowsEventLog/S_Id"/>
+      <genOperations ecoreOperation="windowsEvent.ecore#//WindowsEventLog/toString"/>
+      <genOperations ecoreOperation="windowsEvent.ecore#//WindowsEventLog/toString.1">
+        <genParameters ecoreParameter="windowsEvent.ecore#//WindowsEventLog/toString.1/delimiter"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

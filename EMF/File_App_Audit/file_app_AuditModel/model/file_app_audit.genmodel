@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/bdesoc.audit.file_app_audit/src" modelPluginID="bdesoc.audit.file_app_audit"
+    modelName="File_app_audit" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>file_app_audit.ecore</foreignModel>
+  <genPackages prefix="File_app_audit" disposableProviderFactory="true" ecorePackage="file_app_audit.ecore#/">
+    <genClasses ecoreClass="file_app_audit.ecore#//File_App_Audit_Log">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/fileName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/processName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/workingDirectory"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/time"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/userName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/domainName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/processId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/ppid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute file_app_audit.ecore#//File_App_Audit_Log/syscall"/>
+      <genOperations ecoreOperation="file_app_audit.ecore#//File_App_Audit_Log/toString">
+        <genParameters ecoreParameter="file_app_audit.ecore#//File_App_Audit_Log/toString/delimiter"/>
+      </genOperations>
+      <genOperations ecoreOperation="file_app_audit.ecore#//File_App_Audit_Log/toString.1"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

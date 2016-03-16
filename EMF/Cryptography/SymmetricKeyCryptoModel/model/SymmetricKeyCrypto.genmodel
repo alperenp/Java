@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/bdesoc.crypto.SymmetricKeyCrypto/src" modelPluginID="bdesoc.crypto.SymmetricKeyCrypto"
+    modelName="SymmetricKeyCrypto" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>SymmetricKeyCrypto.ecore</foreignModel>
+  <genPackages prefix="SymmetricKeyCrypto" disposableProviderFactory="true" ecorePackage="SymmetricKeyCrypto.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SymmetricKeyCrypto.ecore#//Algorithm">
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Algorithm/DES"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Algorithm/AES"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Algorithm/Blowfish"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SymmetricKeyCrypto.ecore#//Cipher_Mode">
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Cipher_Mode/ECB"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Cipher_Mode/CBC"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Cipher_Mode/OFB"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Cipher_Mode/CTR"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="SymmetricKeyCrypto.ecore#//Padding">
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Padding/NoPadding"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Padding/PKCS1Padding"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Padding/OAEPWithSHA_1AndMGF1Padding"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Padding/OAEPWithSHA_256AndMGF1Padding"/>
+      <genEnumLiterals ecoreEnumLiteral="SymmetricKeyCrypto.ecore#//Padding/PKCS5Padding"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="SymmetricKeyCrypto.ecore#//InvalidKeyException"/>
+    <genDataTypes ecoreDataType="SymmetricKeyCrypto.ecore#//InvalidAlgortihmParameterException"/>
+    <genDataTypes ecoreDataType="SymmetricKeyCrypto.ecore#//NoSuchAlgorithmException"/>
+    <genDataTypes ecoreDataType="SymmetricKeyCrypto.ecore#//NoSuchPaddingException"/>
+    <genDataTypes ecoreDataType="SymmetricKeyCrypto.ecore#//IllegalBlockSizeException"/>
+    <genDataTypes ecoreDataType="SymmetricKeyCrypto.ecore#//BadPaddingException"/>
+    <genDataTypes ecoreDataType="SymmetricKeyCrypto.ecore#//Cipher"/>
+    <genClasses ecoreClass="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/cipher"/>
+      <genOperations ecoreOperation="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/encrypt">
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/encrypt/plaintext"/>
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/encrypt/key"/>
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/encrypt/IV"/>
+      </genOperations>
+      <genOperations ecoreOperation="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/generateCipherObject">
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/generateCipherObject/algorithm"/>
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/generateCipherObject/cipher_mode"/>
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/generateCipherObject/padding"/>
+      </genOperations>
+      <genOperations ecoreOperation="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/decrypt">
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/decrypt/ciphertext"/>
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/decrypt/key"/>
+        <genParameters ecoreParameter="SymmetricKeyCrypto.ecore#//SymmetricKeyFunction/decrypt/IV"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

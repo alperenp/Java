@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/bdesoc.FileIntegrity/src" modelPluginID="bdesoc.FileIntegrity"
+    modelName="FileIntegrityTest" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>FileIntegrityTest.ecore</foreignModel>
+  <genPackages prefix="FileIntegrityTest" disposableProviderFactory="true" ecorePackage="FileIntegrityTest.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="FileIntegrityTest.ecore#//CryptoHashFunctions">
+      <genEnumLiterals ecoreEnumLiteral="FileIntegrityTest.ecore#//CryptoHashFunctions/MD5"/>
+      <genEnumLiterals ecoreEnumLiteral="FileIntegrityTest.ecore#//CryptoHashFunctions/SHA1"/>
+      <genEnumLiterals ecoreEnumLiteral="FileIntegrityTest.ecore#//CryptoHashFunctions/SHA256"/>
+      <genEnumLiterals ecoreEnumLiteral="FileIntegrityTest.ecore#//CryptoHashFunctions/SHA384"/>
+      <genEnumLiterals ecoreEnumLiteral="FileIntegrityTest.ecore#//CryptoHashFunctions/SHA512"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="FileIntegrityTest.ecore#//NoSuchAlgorithmException"/>
+    <genDataTypes ecoreDataType="FileIntegrityTest.ecore#//InvalidKeyException"/>
+    <genClasses ecoreClass="FileIntegrityTest.ecore#//FileIntegrityChecker">
+      <genOperations ecoreOperation="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated">
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated/fileBytes"/>
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated/integrityCode"/>
+      </genOperations>
+      <genOperations ecoreOperation="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1">
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1/fileBytes"/>
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1/integrityCode"/>
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.1/IntegrityFunction"/>
+      </genOperations>
+      <genOperations ecoreOperation="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2">
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2/fileBytes"/>
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2/integrityCode"/>
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2/IntegrityFunction"/>
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.2/key"/>
+      </genOperations>
+      <genOperations ecoreOperation="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3">
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3/fileBytes"/>
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3/integrityCode"/>
+        <genParameters ecoreParameter="FileIntegrityTest.ecore#//FileIntegrityChecker/IsIntegrated.3/key"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+  <genPackages prefix="HashFunctions" ecorePackage="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//MessageDigestFooNames">
+      <genEnumLiterals ecoreEnumLiteral="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//MessageDigestFooNames/MD5"/>
+      <genEnumLiterals ecoreEnumLiteral="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//MessageDigestFooNames/SHA1"/>
+      <genEnumLiterals ecoreEnumLiteral="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//MessageDigestFooNames/SHA256"/>
+      <genEnumLiterals ecoreEnumLiteral="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//MessageDigestFooNames/SHA384"/>
+      <genEnumLiterals ecoreEnumLiteral="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//MessageDigestFooNames/SHA512"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//NoSuchAlgorithmException"/>
+    <genDataTypes ecoreDataType="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//InvalidKeyException"/>
+    <genClasses image="false" ecoreClass="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//CryptoHash">
+      <genOperations ecoreOperation="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//CryptoHash/CalculateHash">
+        <genParameters ecoreParameter="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//CryptoHash/CalculateHash/inputBytes"/>
+      </genOperations>
+      <genOperations ecoreOperation="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//CryptoHash/CalculateHash.1">
+        <genParameters ecoreParameter="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//CryptoHash/CalculateHash.1/inputBytes"/>
+        <genParameters ecoreParameter="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//CryptoHash/CalculateHash.1/selectedFunction"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//HMAC">
+      <genOperations ecoreOperation="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//HMAC/CalculateHash">
+        <genParameters ecoreParameter="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//HMAC/CalculateHash/inputBytes"/>
+        <genParameters ecoreParameter="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//HMAC/CalculateHash/selectedFunction"/>
+        <genParameters ecoreParameter="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//HMAC/CalculateHash/key"/>
+      </genOperations>
+      <genOperations ecoreOperation="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//HMAC/CalculateHash.1">
+        <genParameters ecoreParameter="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//HMAC/CalculateHash.1/inputBytes"/>
+        <genParameters ecoreParameter="file:/C:/Users/samsung/workspace/bdesoc.crpyto.HashFunctions/model/HashFunctions.ecore#//HMAC/CalculateHash.1/key"/>
+      </genOperations>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
